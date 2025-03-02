@@ -9,5 +9,16 @@
     "idf.toolsPathWin": "D:\\Espressif",
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32c2"
-    }
+    },
+    "files.associations": {
+        "gpio.h": "c",
+        "gpio_etm.h": "c",
+        "port.h": "c",
+        "inttypes.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c",
+        "user_adc.h": "c",
+        "adc_oneshot.h": "c"
+    },
+    "idf.flashType": "UART"
 }
